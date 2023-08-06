@@ -9,4 +9,8 @@ public class TransactionService {
     public void withdraw(Account account, double amountToWithDraw) {
         accountService.updateBalance(account,amountToWithDraw);
     }
+
+    public void deposit(Account account, double amountToBeDeposited) {
+        accountService.deposit(account, amountToBeDeposited);
+    }
 }

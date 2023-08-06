@@ -45,4 +45,6 @@ public class AccountService {
         return accounts.stream().filter(account -> account.getAccountName().equals(accountNumber));
     }
 
+    public void deposit(Account account, double amountToBeDeposited) {
+    }
 }
